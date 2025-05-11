@@ -14,7 +14,7 @@ const Cover = ({ onOpen, coupleNames }) => {
   }, []);
 
   return (
-    <div className="fixed inset-0 bg-gradient-to-b from-rose-100 to-pink-200 flex flex-col items-center justify-center z-50 transition-transform duration-1000 ease-in-out"
+    <div className="fixed inset-0 bg-[#fdf8f0] to-pink-200 flex flex-col items-center justify-center z-50 transition-transform duration-1000 ease-in-out"
       id="cover">
       <div className="text-center p-6 max-w-md mx-auto">
         <h2 className="text-xl text-gray-600 mb-2">Undangan Pernikahan</h2>
