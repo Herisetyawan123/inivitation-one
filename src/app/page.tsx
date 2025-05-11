@@ -30,7 +30,12 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen relative" style={{
+      backgroundImage: 'url("/bg.webp")',
+      backgroundSize: '100% 100%',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+    }}>
       <Cover onOpen={handleOpen} coupleNames="Nama Mempelai Wanita & Nama Mempelai Pria" />
       <MainContent isOpen={isOpen} />
     </main>
